@@ -69,7 +69,7 @@ export const Form = () => {
 //     e.preventDefault()
 
 //     console.log("Submit")
-//     console.log({
+//     .log({
 //         nombre, email
 //     })
 // }

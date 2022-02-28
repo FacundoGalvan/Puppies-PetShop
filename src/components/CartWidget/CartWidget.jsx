@@ -11,7 +11,7 @@ export const CartWidget = () => {
     return (
         <Link to="/cart">
         <BsFillCartFill  className="Carrito" />
-            <span>{cantidadCart()}</span>
+            <span className='CarritoNum'>{cantidadCart()}</span>
         </Link>
     )
 }
