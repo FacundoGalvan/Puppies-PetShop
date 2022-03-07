@@ -46,7 +46,7 @@ header .navBar .me-auto {
 
 @media (max-width: 768px) {
   header .navBar .me-auto {
-    background-color: red;
+    background-color: yellow;
     position: absolute;
     z-index: 99;
     width: 100%;
@@ -60,21 +60,15 @@ header .navBar .me-auto {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 6.6rem;
+    height: 7rem;
   }
 }
 
-header .navBar .me-auto #basic-nav-dropdown {
+header .navBar .me-auto .Ayuda {
   height: 4.3rem;
   position: relative;
   top: 20%;
   color: white;
-}
-
-@media (max-width: 768px) {
-  header .navBar .me-auto #basic-nav-dropdown {
-    height: 2rem;
-  }
 }
 
 header .navBar .me-auto .miCuenta {
@@ -88,7 +82,7 @@ header .navBar .me-auto .miCuenta {
   header .navBar .me-auto .miCuenta {
     height: 2rem;
     position: relative;
-    top: 0%;
+    top: 5%;
   }
 }
 
