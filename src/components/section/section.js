@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { pedirDatos } from "../../helpers/pedirDatos"
 import { ItemList } from "../ItemList/ItemList"
 import { useParams } from 'react-router-dom'
 import { db } from "../../firebase/config"
@@ -16,11 +15,8 @@ export const SectionProducts = () => {
 
     useEffect( () => {
         setLoading(true)
-
-        // 1.- armar referencia
         const productosRef = collection(db, 'productos')
         const q = catId ? query(productosRef, where("categoria", "==", catId)) : productosRef
-        // 2.- pedir esa ref
         getDocs(q)
             .then((resp) => {
                 setProductos( resp.docs.map((doc) => {

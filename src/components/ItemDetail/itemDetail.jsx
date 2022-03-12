@@ -2,7 +2,6 @@ import { useContext, useState } from "react"
 import { ItemCount } from "../itemcount/itemcount"
 import { CartContext } from "../../context/CartContext"
 import { Link } from "react-router-dom"
-import { Memo } from "../../ejemplos/memo/memo"
 
 export const ItemDetail = ({id, nombre, img, desc, precio, stock, categoria}) => {
 

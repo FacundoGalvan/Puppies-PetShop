@@ -27,11 +27,10 @@ export const NavBarOne = () => {
             </Navbar>
                           <Container className="Contenedorbotton">
                           <ButtonGroup className="MenudeBotones" >
-                          <Link to='/productos/mascotas' ><Button>Alimentos</Button> </Link> 
-                          <Link to ="/productos/marcas"><Button>Purina</Button></Link>
-                          <Link to='/productos/servicios'><Button >Royal Canin</Button></Link>
-                          <Link to='/productos/puppisone'><Button>Old Prince</Button></Link>
-                          <Link to='/productos/sucursales'><Button>Vital Can</Button></Link>
+                          <Link to ="/productos/royalcanin"><Button>Royal Canin</Button></Link>
+                          <Link to='/productos/purina'><Button>Purina</Button></Link>
+                          <Link to='/productos/oldprince'><Button>Old Prince</Button></Link>
+                          <Link to='/productos/vitalcan'><Button>Vital Can</Button></Link>
                           </ButtonGroup>
                           </Container>
                 <div className="envioprogr" >

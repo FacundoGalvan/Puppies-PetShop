@@ -1,11 +1,9 @@
-
-
 import React from 'react';
 
-export const Sucursales = () => {
+export const RoyalCanin = () => {
 
   return <div >
-           <h2>Sucursales</h2>
+           <h2>Marcas</h2>
            <hr/>
         </div>;
 };

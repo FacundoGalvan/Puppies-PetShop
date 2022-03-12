@@ -1,9 +1,11 @@
+
+
 import React from 'react';
 
-export const Marcas = () => {
+export const VitalCan = () => {
 
   return <div >
-           <h2>Marcas</h2>
+           <h2>Sucursales</h2>
            <hr/>
         </div>;
 };

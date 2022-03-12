@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export const Servicios = () => {
+export const OldPrince = () => {
 
   return <div>
             <h2>Servicios</h2>

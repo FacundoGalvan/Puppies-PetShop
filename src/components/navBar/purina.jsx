@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-export const Mascotas = () => {
+export const Purina = () => {
 
   return <div >
-           <h2>Mascotas</h2>
+           <h2>PUPPIS ONE</h2>
            <hr/>
         </div>;
 };
