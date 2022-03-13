@@ -28,7 +28,7 @@ function App() {
           <Route path="/royalcanin" element={ <RoyalCanin/> }   />
           <Route path="/vitalcan" element={ <VitalCan/> }   />
           <Route path="/purina" element={ <Purina/> }   />
-          <Route path="/oldprince" element6={ <OldPrince /> } />
+          <Route path="/oldprince" element={ <OldPrince /> } />
           <Route path='*' element={ <Navigate to='/'/> }/>
           <Route path='/checkout' element={ <Checkout/> } />
          </Routes>

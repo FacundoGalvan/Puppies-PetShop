@@ -18,7 +18,7 @@ export const NavBarOne = () => {
                           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                           <Navbar.Collapse id="basic-navbar-nav">
                           <Nav className="me-auto">
-                            <Nav.Link className="Ayuda" href="#home">Ayuda</Nav.Link>
+                            <Nav.Link className="puppisOne" href="#home">Puppis One</Nav.Link>
                             <Nav.Link className="miCuenta" href="#home">Mi Cuenta</Nav.Link>
                             <CartWidget/>
                            </Nav>
@@ -27,7 +27,7 @@ export const NavBarOne = () => {
             </Navbar>
                           <Container className="Contenedorbotton">
                           <ButtonGroup className="MenudeBotones" >
-                          <Link to ="/productos/royalcanin"><Button>Royal Canin</Button></Link>
+                          <Link to ="/productos/royalcanin"><Button>Royal</Button></Link>
                           <Link to='/productos/purina'><Button>Purina</Button></Link>
                           <Link to='/productos/oldprince'><Button>Old Prince</Button></Link>
                           <Link to='/productos/vitalcan'><Button>Vital Can</Button></Link>

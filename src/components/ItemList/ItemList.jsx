@@ -1,4 +1,4 @@
-import { Contenedor } from "../../ejemplos/contenedor/contenedor"
+import { Contenedor } from "../../contenedor/contenedor"
 import { Item } from "../Item/Item"
 import "./ItemList.scss"
 
